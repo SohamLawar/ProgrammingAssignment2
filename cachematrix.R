@@ -28,4 +28,5 @@ cacheSolve <- function(x, ...) {
   m <- solve(data, ...)
   x$set(m)
   m
+
 }
